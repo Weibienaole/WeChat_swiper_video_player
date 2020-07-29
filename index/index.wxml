@@ -1,0 +1,17 @@
+<view class="homePage-wrap">
+  <view class="content">
+    <view class="VideoSwitchingSwiper">
+      <view class="Viedo_Continer">
+        <!-- vertical   纵向滑动  bindchange  滑动触发   -->
+        <swiper indicator-dots="{{false}}" autoplay="{{false}}" duration="300" circular="{{false}}" vertical="true" bindchange="swiperChange" wx:if="{{swiperVideoDataList.length>0}}" circular="{{circularBol}}">
+            <!-- 创建 swiper 滚动标签组 -->
+            <swiper-item class="swiperItem" wx:for="{{swiperVideoDataList}}" wx:key="index" style="width:100%;">
+              <view class="swiper-item">
+              {{item || 0}}
+              </view>
+            </swiper-item>
+        </swiper>
+      </view>
+    </view>
+  </view>
+</view>

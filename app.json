@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "index/index"
+  ],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#2f2f8f",
+		"navigationBarTitleText": "GoZeroWaste",
+		"navigationBarTextStyle": "white",
+		"onReachBottomDistance": 10,
+		"navigationStyle": "custom"
+	},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
